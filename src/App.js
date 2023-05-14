@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import {
   QueryClient,
   QueryClientProvider,
@@ -40,6 +39,3 @@ function Example() {
     </div>
   );
 }
-
-const rootElement = document.getElementById("root");
-ReactDOM.createRoot(rootElement).render(<App />);
